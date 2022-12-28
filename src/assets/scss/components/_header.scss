@@ -1,0 +1,55 @@
+  .header {
+    color: $white;
+    background-color: $black;
+
+    .header__logo {
+      .header__logo--text {
+        text-decoration: none;
+        color: $white;
+        font-size: 25px;
+        font-weight: 700;
+        position: relative;
+        right: 200px;
+
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+  }
+
+  .header__info {
+    position: relative;
+    right: 260px;
+    p{
+      margin-bottom: 0px;
+    }
+  }
+
+  .header__tutorials {
+    position: relative;
+    right: 40px;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+
+  .header__portfolio {
+    background-color: black;
+  }
+
+  .header__portfolio--dropdown {
+    button {
+      background-color: black;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+
+  .portfolio--dropdow__router {
+    color: black;
+  }

@@ -1,0 +1,120 @@
+.vendor__main {
+    height: 2000px;
+
+    .vendor__owner-reg {
+        height: 600px;
+        background-image: url("../../assets/jpg/back_ground_elec_car.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+        .vendor__owner-title {
+            margin-bottom: 190px;
+
+            h1 {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 34px;
+                color: white;
+                font-weight: 700;
+                line-height: 50px;
+            }
+
+            p {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 18px;
+                color: white;
+                font-weight: 400;
+                line-height: 20px;
+            }
+        }
+
+        .vendor__owner-form {
+            width: 40%;
+            height: 400px;
+            background-color: #f8f9fb;
+            padding: 15px 30px;
+
+            h2 {
+                color: #00a550;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            p {
+                color: #a9aaad;
+                font-size: 15px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.register-form__input {
+    height: 50px;
+    margin: 10px 0px;
+    color: #a9aaad;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.register-form__input-name {
+    width: 58%;
+}
+
+.register-form__input-phone {
+    width: 40%;
+    margin-left: 8px;
+}
+
+.vendor__button {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 2px;
+    font-weight: 700;
+}
+
+.vendor__res-rent {
+
+    margin-top: 150px;
+
+    h1 {
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        color: black;
+        font-weight: 700;
+        line-height: 50px;
+        margin-bottom: 0px;
+    }
+}
+
+.img {
+    background-color: white;
+    border: 0px;
+}
+
+.vendor__reg-tuto {
+   
+    h1 {
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        color: black;
+        font-weight: 700;
+        line-height: 50px;
+      
+    }
+}
+
+.step__detail {
+    text-align: center;
+    h4 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color:#00a550;
+        font-weight: 700;
+        line-height: 50px;
+    }
+    p{
+        font-size: 15px;
+    }
+}

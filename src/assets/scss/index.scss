@@ -1,0 +1,19 @@
+@import "./variables";
+@import "./base";
+
+//? Components
+@import "./components/footer.scss";
+@import "./components/header.scss";
+@import "./components/modal";
+@import "./components/Form.scss";
+@import "./components/FormCreateCar.scss";
+@import "./components/table";
+
+@import "./car/carInfo.scss";
+@import "./car/Carvendor.scss";
+//? Page
+@import "./page/homePage.scss";
+@import "./page/register";
+@import "./page/Login";
+@import "./page/portfolio/portfolio";
+@import "./page/carDetail";

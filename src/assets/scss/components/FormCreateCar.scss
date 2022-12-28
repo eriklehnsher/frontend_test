@@ -1,0 +1,144 @@
+.carform__button--modal {
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 2px;
+
+    &:hover {
+        color: green;
+        border-color: green;
+    }
+}
+
+.modal {}
+
+.modal-content {
+    border-radius: 2px;
+    width: 100%;
+}
+
+.modal-header {
+
+
+    justify-content: center;
+
+    .modal-title {
+        margin: 25px 0px 25px;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: inherit;
+    }
+}
+
+.carform--title {
+    color: #141414;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.carform--title__warn {
+    color: red;
+}
+
+.carform__name {
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+    .carform__name--input {
+        width: 100%;
+        border: 2px solid rgb(200, 221, 200);
+        border-radius: 2px;
+    }
+}
+
+.col-form-label {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: inherit;
+    color: #141414;
+}
+
+.carform__select {
+
+    width: 100%;
+    height: 40px;
+    border: 2px solid rgb(200, 221, 200);
+    border-radius: 2px;
+}
+
+.carform__decs {
+    width: 100%;
+    height: 40px;
+    border: 2px solid rgb(200, 221, 200);
+    border-radius: 2px;
+}
+
+.carform__feature {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+
+.carform__requirements {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+
+.custom-checkbox {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    align-items: center;
+    width: 150%;
+    height: 50px;
+
+}
+
+label.custom-control-label {
+    margin-left: 5px;
+}
+
+// .custom-control-input {
+//     visibility: hidden;
+// }
+.carform__feature--img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    img {
+        width: 4%;
+        margin-right: 20px;
+    }
+
+}
+
+.carform__colla {
+    width: 100%;
+    height: 40px;
+    border: 2px solid rgb(200, 221, 200);
+    border-radius: 2px;
+}
+
+.carform__price {
+    width: 100%;
+    height: 40px;
+    border: 2px solid rgb(200, 221, 200);
+    border-radius: 2px;
+}
+.modal-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    button {
+        border-radius: 2px;
+        width: 48%;
+        .btn-primary {
+            background-color: green;
+        }
+    }
+}

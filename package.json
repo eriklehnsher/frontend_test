@@ -1,0 +1,76 @@
+{
+  "name": "HaNoi-Car",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 6969",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/vue-fontawesome": "^2.0.8",
+    "axios": "^0.21.4",
+    "bootstrap": "^5.2.2",
+    "bootstrap-vue": "^2.23.1",
+    "core-js": "^3.6.5",
+    "dotenv": "^16.0.3",
+    "font-awesome": "^4.7.0",
+    "jwt-decode": "^3.1.2",
+    "sass": "^1.49.9",
+    "sass-loader": "^7.3.1",
+    "store": "^2.0.12",
+    "v-md-date-range-picker": "^2.6.0",
+    "vue": "^2.7.13",
+    "vue-axios": "^3.4.1",
+    "vue-bootstrap-datetimepicker": "^5.0.1",
+    "vue-carousel": "^0.18.0",
+    "vue-carousel-3d": "^1.0.1",
+    "vue-router": "^3.5.3",
+    "vue2-datepicker": "^3.11.1",
+    "vue2-daterange-picker": "^0.6.8",
+    "vue2-timepicker": "^1.1.6",
+    "vuedraggable": "^2.24.3",
+    "vuejs-datepicker": "^1.6.2",
+    "vuetable-2": "^2.0.0-beta.4",
+    "vuetify": "^2.6.13",
+    "vuetify-datetime-picker": "^2.1.1",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.3",
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-eslint": "~4.5.13",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~4.5.13",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-unused-vars": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
